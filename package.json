@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-catch",
+  "version": "1.0.0",
+  "description": "A set of eslint configurations, for Catch Group web team",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattyao-cotd/eslint-config-catch.git"
+  },
+  "author": "Catch",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "eslint": "5.8.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-filenames": "1.3.2",
+    "eslint-plugin-react": "7.11.1"
+  },
+  "keywords": [
+    "code checker",
+    "code linter",
+    "code standards",
+    "eslint-config",
+    "eslint",
+    "lint"
+  ]
+}
