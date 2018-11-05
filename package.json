@@ -7,13 +7,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mattyao-cotd/eslint-config-catch.git"
+    "url": "git+https://github.com/mattyao-cotd/eslint-config-catch.git"
   },
   "author": "Catch",
   "license": "MIT",
   "dependencies": {
     "babel-preset-airbnb": "^2.5.3",
-    "eslint-config-airbnb": "17.1.0"
+    "eslint-config-airbnb": "17.0.0"
   },
   "devDependencies": {
     "babel-eslint": "10.0.1",
@@ -35,5 +35,10 @@
     "eslint-config",
     "eslint",
     "lint"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/mattyao-cotd/eslint-config-catch/issues"
+  },
+  "homepage": "https://github.com/mattyao-cotd/eslint-config-catch#readme",
+  "main": "index.js"
 }
