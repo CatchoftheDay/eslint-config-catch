@@ -3,7 +3,7 @@
 module.exports = {
   plugins: ["react"],
   rules: {
-    "react/jsx-one-expression-per-line": false,
+    "react/jsx-one-expression-per-line": "off",
     "react/no-unused-state": "warn",
     "react/prop-types": "warn",
     "react/no-unescaped-entities": "warn",

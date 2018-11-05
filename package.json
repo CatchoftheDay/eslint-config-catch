@@ -11,8 +11,7 @@
   },
   "author": "Catch",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "babel-eslint": "10.0.1",
     "eslint": "5.8.0",
     "eslint-config-airbnb": "17.1.0",
