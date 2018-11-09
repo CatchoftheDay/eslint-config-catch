@@ -12,5 +12,6 @@ module.exports = {
     "react/no-array-index-key": "warn",
     "jsx-a11y/alt-text": "warn",
     "jsx-a11y/no-autofocus": "warn",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   }
 };
