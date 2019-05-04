@@ -47,12 +47,6 @@ If you only need React rules, you can do the following:
 "extends":
   - "catch/rules/react"
 ```
-## About CI/CD
-This repo is managed by Travis and npm hooks. It follows the [Semantic Release](https://github.com/semantic-release/cli) process and gets deployed automatically by Travis if the build is successful on master branch. 
-
-To contribute to this repo, please install [Commitizen Cli](https://github.com/commitizen/cz-cli) and follow the instructions if you are submitting new commit.
-
-Please never release via Github Manually.
 
 ## License
 
