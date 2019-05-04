@@ -1,29 +1,16 @@
-"use strict";
-
 module.exports = {
   rules: {
-    "radix": ["error", "as-needed"],
-    "import/prefer-default-export": "warn",
-    "function-paren-newline": "off",
-    "no-prototype-builtins": "off",
-    "default-case": "off",
-    "no-underscore-dangle": "off",
-    "no-shadow": "off",
-    "no-case-declarations": "off",
-    "arrow-parens": ["error", "as-needed"],
-    "prefer-destructuring": "warn",
-    "no-unused-vars": "warn",
-    "consistent-return": "warn",
-    "brace-style": ["error", "1tbs", {
-      "allowSingleLine": false
-    }],
-    "curly": ["error", "all"],
-    "no-plusplus": [ "error", {
-        "allowForLoopAfterthoughts": true
-    }],
-    "no-restricted-globals": "warn",
-    "no-undef": "warn",
-    "max-len": "warn",
-    "class-methods-use-this": "warn",
-  }
+    'arrow-parens': ['error', 'as-needed'],
+    'brace-style': ['error', '1tbs', { allowSingleLine: false }],
+    'consistent-return': 'warn',
+    'curly': ['error', 'all'],
+    'default-case': 'warn',
+    'import/prefer-default-export': 'warn',
+    'max-len': 'warn',
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+    'no-prototype-builtins': 'off',
+    'prefer-destructuring': 'warn',
+    'quote-props': ['warn', 'consistent-as-needed'],
+    'radix': ['error', 'as-needed'],
+  },
 };

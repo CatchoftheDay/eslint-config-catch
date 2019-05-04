@@ -1,19 +1,9 @@
-"use strict";
-
 module.exports = {
   extends: [
-    "airbnb", // use airbnb as the base
-    "catch/rules/eslint", 
-    "catch/rules/filenames",
-    "catch/rules/react",
+    'airbnb',
+    './rules/eslint.js',
+    './rules/filenames.js',
+    './rules/react.js',
   ],
-  parser: "babel-eslint",
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true
-    }
-  },
-  env: {
-    es6: true,
-  },
-}
+  parser: 'babel-eslint',
+};
