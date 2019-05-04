@@ -1,53 +1,39 @@
-<h1 align="center">eslint-config-catch</h1>
-<p align="center">
-  <a title='License' href="https://github.com/mattyao-cotd/eslint-config-catch/blob/master/LICENSE.md">
-    <img src='https://img.shields.io/github/license/mattyao-cotd/eslint-config-catch.svg' />
-  </a>
-</p>
-<h4 align="center">
-  A composable set of ESLint configurations, for Catch Group Web Team only.
-</h4>
+# eslint-config-catch
 
----
+[![GitHub license](https://img.shields.io/github/license/CatchoftheDay/eslint-config-catch.svg)](https://github.com/CatchoftheDay/eslint-config-catch/blob/master/LICENSE.md)
+[![NPM version](https://img.shields.io/npm/v/eslint-config-catch.svg)](https://www.npmjs.org/package/eslint-config-catch)
+[![NPM Downloads](https://img.shields.io/npm/dm/eslint-config-catch.svg)](https://www.npmjs.org/package/eslint-config-catch)
+[![Build Status](https://travis-ci.org/CatchoftheDay/eslint-config-catch.svg?branch=master)](https://travis-ci.org/CatchoftheDay/eslint-config-catch)
 
-This project is based on [Airbnb ESLint rules](https://github.com/airbnb/javascript) , extended by Catch Group Web team with modifications by requirements. 
+An ESLint configuration for the Catch IT team.
 
 ## Installation
-1.  Install this config package and ESLint:
 
-    ```bash
-    $ npm install --save-dev eslint eslint-config-catch eslint-config-airbnb@17.0.0
-    ```
-    or
-    ```bash
-    $ yarn add eslint eslint-config-catch eslint-config-airbnb@17.0.0
-    ```
-
-2.  Then, install any additional dependencies required by your configuration. (See
-    [Dependencies](#dependencies) section below.)
-
-        e.g.
-        ```bash
-        $ npm install --save-dev eslint-plugin-filenames babel-eslint
-        ```
+```bash
+$ npm install eslint eslint-config-catch --save-dev
+```
+or
+```bash
+$ yarn add eslint eslint-config-catch --dev
+```
 
 ## Usage
-To consume and extend a config in ESLint just add the extends attribute to your `.eslintrc`. For
-more details about how shareable configs work, see the
-[ESLint documentation](http://eslint.org/docs/developer-guide/shareable-configs).
+To start using this configuration, simply extend this package in your
+ESLint configuration:
 
-```yaml
----
-"extends":
-  - "catch"
-```
-If you only need React rules, you can do the following:
-```yaml
----
-"extends":
-  - "catch/rules/react"
+```json
+{
+  "extends": "catch"
+}
 ```
 
-## License
+For legacy rules (pre ES6), the following can be used:
 
-Copyright (c) 2018-present, Catch.com.au
+```json
+{
+  "extends": "catch/legacy"
+}
+```
+
+For more additional information on shareable configs, see the
+[ESLint Documentation](http://eslint.org/docs/developer-guide/shareable-configs).
